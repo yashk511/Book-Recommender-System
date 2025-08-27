@@ -40,6 +40,30 @@ This project builds a content‑based **Book Recommendation System**. It cleans 
 
 ---
 
+## 🚀 Usage Instructions
+
+1. **Install dependencies for the Gradio app:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+   *Note: `requirements.txt` only includes packages needed to run `app.py` (the Gradio dashboard).*
+
+2. **If you want to run the Jupyter notebooks for data cleaning, classification, or sentiment analysis, you may need to install additional packages:**
+   ```bash
+   pip install transformers tqdm seaborn matplotlib
+   ```
+
+3. **Run each notebook in order for data preparation and model building (optional).**
+
+4. **Launch the dashboard:**
+   ```bash
+   python app.py
+   ```
+
+5. **Access the dashboard at** `http://127.0.0.1:7860` **in your browser.**
+
+---
+
 ## 📄 License
 
 MIT License — see `LICENSE` for details.
